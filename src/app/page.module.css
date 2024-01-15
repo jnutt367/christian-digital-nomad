@@ -13,11 +13,19 @@
   width: stretch;
 }
 
-.nav {
+.nav  {
   display: grid;
   grid-template-columns: 3fr 2fr 2fr 2fr;
   grid-gap: 2rem;
+  background-color: transparent;
 }
+.grid {
+  display: grid;
+  grid-template-columns:  3fr 3fr 3fr 3fr;
+  grid-gap: 15px;
+}
+
+
 
 /* Mobile */
 @media (max-width: 700px) {
@@ -27,6 +35,14 @@
   background-image: url(/jason-canva-bg.png);
 }
   
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+
+
+
 }
 
 /* Tablet and Smaller Desktop */
