@@ -40,8 +40,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <p> Christian Digital Nomad</p>
+      
       <div className={styles.center}>
+      <p> Christian Digital Nomad</p>
     
         <Image
           className={styles.logo}
@@ -51,6 +52,9 @@ export default function Home() {
           height={37}
           priority
         />
+<p>Developer</p>
+
+
       </div>
 <p>Developer</p>
       <div className={styles.grid}>
@@ -61,9 +65,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+           Project 1 <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>In-depth look into the build of the Word of God Risen, A bible App</p>
         </a>
 
         <a
