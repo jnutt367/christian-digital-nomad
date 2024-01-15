@@ -4,15 +4,15 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.nav}>
         <p>
         &nbsp;
         <Image 
               src="/jn-high-resolution-logo-transparent.png"
               alt="Personal Logo"
               className={styles.Logo}
-              width={75}
-              height={24}
+              width={200}
+              height={100}
               priority
             />
          &nbsp;
