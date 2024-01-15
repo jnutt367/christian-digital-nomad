@@ -6,8 +6,21 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+        &nbsp;
+        <Image 
+              src="/jn-high-resolution-logo-transparent.png"
+              alt="Personal Logo"
+              className={styles.Logo}
+              width={75}
+              height={24}
+              priority
+            />
+         &nbsp;
+          Hi, I am Jason,  &nbsp;
+          
+        
+  
+
         </p>
         <div>
           <a
@@ -27,8 +40,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+      <p> Christian Digital Nomad</p>
       <div className={styles.center}>
+    
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -38,7 +52,7 @@ export default function Home() {
           priority
         />
       </div>
-
+<p>Developer</p>
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

@@ -1,11 +1,13 @@
 .main {
   display: flex;
-  background-image: url(/public/jason-canva-banner-2.png);
+  background-image: url(/jason-canva-banner-2.png);
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
+  margin: 2rem;
   min-height: 100vh;
+  width: stretch;
 }
 
 .description {
@@ -107,6 +109,9 @@
 
 .logo {
   position: relative;
+  margin-right: 3rem;
+  text-shadow: 1px 1px purple;
+
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -131,7 +136,10 @@
   .content {
     padding: 4rem;
   }
-
+.main {
+  width: fit;
+  background-image: url(/jason-canva-bg.png);
+}
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
@@ -208,6 +216,12 @@
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+  .main {
+    width: fit;
+    background-image: url(/jason-canva-bg.png);
+  }
+
+
 }
 
 @media (prefers-color-scheme: dark) {
